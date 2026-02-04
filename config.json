@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jeanmajid/MCPE-Tool/refs/heads/main/public/mcConfigSchema.json",
+    "name": "MCPE-DDUIRenderer",
+    "description": "",
+    "modules": ["npm", "ts"],
+    "id": "qu7h9q37txml82e715",
+    "output": "preview"
+}

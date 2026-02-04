@@ -1,0 +1,55 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "MCPE-DDUIRenderer",
+        "description": "",
+        "uuid": "a2f5bab0-dbbd-43f3-9a76-e0dd963447d0",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            70
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "914b1cac-49ea-488b-9f51-e9f1eaee92a0",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "uuid": "0b79faff-7f68-4521-9fb4-e59686ced2ab",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "language": "javascript",
+            "entry": "scripts/index.js"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "jeanmajid"
+        ]
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.7.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "2.1.0-beta"
+        }
+    ]
+}
