@@ -67,7 +67,6 @@ class DDUIRenderer {
 
     point(vertex: Vertex) {
         const { x, y } = this.screenProject(vertex);
-        console.warn(x, y);
         this.setPixel(x, y);
     }
 
